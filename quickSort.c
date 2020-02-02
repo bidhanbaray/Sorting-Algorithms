@@ -43,7 +43,7 @@ int part(int l,int h){
       j--;
     }while(num[j]>pivot);
     if(i<j)
-			swap(&num[i],&num[j]);
+	swap(&num[i],&num[j]);
   }while(i<j);
   swap(&num[l],&num[j]);
 
